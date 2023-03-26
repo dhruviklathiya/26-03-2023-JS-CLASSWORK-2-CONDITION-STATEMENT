@@ -1,0 +1,29 @@
+<script>
+    var phy = parseInt(prompt("Marks of Physics out of 100:"));
+    var chem = parseInt(prompt("Marks of Chemistry out of 100:"));
+    var bio = parseInt(prompt("Marks of Biology out of 100:"));
+    var maths = parseInt(prompt("Marks of Mathematics out of 100:"));
+    var comp = parseInt(prompt("Marks of Computer out of 100:"));
+    var result = (phy+chem+bio+maths+comp)/5;
+    if(result>=90){
+        document.write("Grade A");
+    }
+    else if(result>=80){
+        document.write("Grade B");
+    }
+    else if(result>=70){
+        document.write("Grade C");
+    }
+    else if(result>=60){
+        document.write("Grade D");
+    }
+    else if(result>=50){
+        document.write("Grade E");
+    }
+    else if(result>=40){
+        document.write("Grade F");
+    }
+    else{
+        document.write("Failed");
+    }
+</script>
